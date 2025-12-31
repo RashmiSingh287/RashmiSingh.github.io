@@ -235,6 +235,7 @@ ul a{
     color: #dddd;
     font-size: 0.85rem;
    margin-top: 10px;
+   text-decoration: none;
 }
 
 .foot-panel3{
@@ -272,4 +273,57 @@ ul a{
 }
 .copyright{
 padding: 5px;
+}
+
+
+/* ========== MOBILE PHONES ONLY ========== */
+
+@media (max-width: 768px) {
+
+    /* Navbar adjust */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    /* Search bar responsive */
+    .nav-search {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    /* Panel options hide on phone */
+    .panel-ops {
+        display: none;
+    }
+
+    /* Hero section height */
+    .hero-section {
+        height: 250px;
+    }
+
+    .msg {
+        font-size: 0.75rem;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Shopping boxes one-by-one */
+    .box {
+        width: 90%;
+    }
+
+    /* Footer responsive */
+    .foot-panel2 {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .foot-panel2 ul {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
